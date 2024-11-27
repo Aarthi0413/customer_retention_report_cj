@@ -1,0 +1,47 @@
+{
+    "name": "Customer Retention Report",
+    "version": "0.0.1",
+    "size": {
+        "width": 3,
+        "height": 3
+    },
+    "mapping": [
+        {
+            "dataSetId": "04661e55-af7c-4635-9865-869e93e58d28",
+            "alias": "customer_data",
+            "fields":[]
+        }
+    ],
+    "workflowMapping": [
+        {
+            "alias": "eig_mail",
+            "modelId": null,
+            "version": null,
+            "parameters": [
+                {
+                    "name": "to",
+                    "aliasedName": "to",
+                    "type": "text",
+                    "list": false,
+                    "children": []
+                },
+                {
+                    "name": "subject",
+                    "aliasedName": "subject",
+                    "type": "text",
+                    "list": false,
+                    "children": []
+                },
+                {
+                    "name": "body",
+                    "aliasedName": "body",
+                    "type": "text",
+                    "list": false,
+                    "children": []
+                }
+            ]
+        }
+    ],
+     "id": "905b2b2a-d1cf-4ece-a900-3ad4c5ce0c4f",
+    "proxyId":"f352d327-ecf8-4620-8895-1fba88ec34f8"
+}
